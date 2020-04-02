@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+</head>
+<body>
+	<div class="corpo">
+		<header id="cabecalho">
+			<div id="logo"></div>
+			<div id="slogan">
+				<img src="imagens/slogan.png">
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="empresa.html">Nossa Empresa</a></li>
+					<li><a href="produtos.html">Nossos Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>			
+				</ul>
+			</nav>
+			<div id="login">
+				<h4>Acesso de Clientes</h4>
+				<form method="POST">
+					<label>Nome</label> <input type="text" name="nome" class="camposLogin" />
+					<label>Senha</label> <input type="password" name="senha" class="camposLogin" />
+					<input type="submit" value="Login" class="botaoLogin" />
+					<input type="submit" value="Cadastrar" class="botaoLogin" />
+					<a href="#">Esqueceu a senha?</a>
+				</form>				
+			</div>
+		</header>
+		<section id="clientes">
+			<h2>Nossos Clientes</h2>
+			<a href="404.html"><div class="parceiros"><img src="imagens/supermercados/carrefour.jpg"></div></a>
+			<a href="404.html"><div class="parceiros"><img src="imagens/supermercados/cometa.jpg"></div></a>
+			<a href="404.html"><div class="parceiros"><img src="imagens/supermercados/araripe.jpg"></div></a>
+			<a href="404.html"><div class="parceiros"><img src="imagens/supermercados/baratao.jpg"></div></a>
+		</section>
+		<section id="conteudo">
+			<div class="divCaixa">
+				<h3>Contato</h3>
+				<div id="caixaContato">
+					<form method="POST">
+						<label style="margin-right: 25px;">Nome*: </label>
+						<input type="text" class="caixaTextoContato" name="nome" required><br>
+						<label style="margin-right: 12px;">Empresa: </label>
+						<input type="text" class="caixaTextoContato" name="empresa"><br>
+						<label>CPF/CNPJ: </label>
+						<input type="text" class="caixaTextoContato" name="cpf_cnpj"><br>
+						<label style="margin-right: 24px;">E-mail*: </label>
+						<input type="email" class="caixaTextoContato" name="e-mail" required><br>
+						<label style="margin-right: 30px;">Fone*: </label>
+						<input type="tel" class="caixaTextoContato2" name="fone" placeholder="(85) 0000-0000" required>
+						<label>Celular*: </label><input type="tel" class="caixaTextoContato2" name="celular" placeholder="(85) 90000-0000" required><br>
+						<label style="margin-right: 18px;">Estado*: </label>
+						<input type="text" class="caixaTextoContato2" name="estado" required>
+						<label>Cidade*: </label><input type="text" class="caixaTextoContato2" name="cidade" required><br>
+						<label>Seu e-mail é sobre*: </label><br>
+						<select required>
+							<option value="inf_pedros">Informações da Pedro's Chicken</option>
+							<option value="inf_produtos">Informações de Produtos</option>
+							<option value="receitas">Receitas</option>
+							<option value="elogio">Elogios</option>
+							<option value="sugestoes">Sugestões</option>
+							<option value="reclamacoes">Reclamações</option>
+							<option value="contato_comercial">Contato Comercial</option>
+							<option value="rh">Recursos Humanos</option>
+							<option value="outro_assunto">Outro Assunto</option>
+						</select><br>
+						<textarea rows="7" cols="40" placeholder="Escreva a sua mensagem"></textarea><br>
+						<input type="submit" id="botaoContato" value="Enviar Contato">
+					</form>
+					<img src="imagens/logoG2.png">
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="informacao">
+				<h3>Venha nos visitar!</h3>
+				<p>Rua Carijó, 404 - Granja Portugal</p>
+				<p>Fortaleza-CE</p>
+				<p>Fones: (85) 4040-4004 | 2200-0022</p>
+			</div>
+			<div id="redes">
+				<h3>Nossas redes sociais.</h3>
+				<a href="#"><img src="imagens/facebook.png" alt="Facebook"></a>
+				<a href="#"><img src="imagens/instagram.png" alt="Instagram"></a>
+				<a href="#"><img src="imagens/twitter.png" alt="Twitter"></a>
+				<a href="https://www.youtube.com/watch?v=DyjvxuIWm78" target="_blank"><img src="imagens/youtube.png" alt="YouTube"></a>
+			</div>
+			<p class="direitos">Copyright &copy 2018 Pedro's Chicken - Todos os direitos reservados.</p>
+			<p class="direitos"> Site desenvolvido por Emanuelle, Edney, Pedro e Wilson</p>
+		</footer>
+	</div>
+</body>
+</html>
